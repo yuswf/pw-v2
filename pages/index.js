@@ -1,5 +1,6 @@
 import {useEffect} from 'react';
 import {useDispatch} from 'react-redux';
+import Head from 'next/head';
 
 import {setUser} from '@/stores/data';
 
@@ -33,6 +34,14 @@ export default function Home() {
 
     return (
         <div>
+            <Head>
+                <title>babapro</title>
+                
+                <meta name="description" content="babapronun site"/>
+                <meta name="keywords" content="babapronun, babapro, babapronun site, babapro site"/>
+                <meta name="author" content="babapro"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            </Head>
             <ProfileComponent/>
         </div>
     );
