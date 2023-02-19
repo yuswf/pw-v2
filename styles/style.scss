@@ -1,0 +1,29 @@
+$bg-color: #203177;
+$bg-color-2: #fff;
+$color-1: #601ec4;
+$color-2: #642ba4;
+$color-3: #31258d;
+$color-4: #46348d;
+$color-5: #4a3f7d;
+$color-6: #3c77a2;
+$color-7: #1e1b1b;
+
+html, body {
+  background-color: $color-5;
+  height: 100%;
+  width: 100%;
+}
+
+.p-d {
+  background-color: $color-4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: $color-7 0px 0px 20px 0px;
+  transition: 200ms all ease;
+
+  &:hover {
+    transform: translate(-50%, -50%) scale(1.03);
+  }
+}

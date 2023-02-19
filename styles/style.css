@@ -1,0 +1,20 @@
+html, body {
+  background-color: #4a3f7d;
+  height: 100%;
+  width: 100%;
+}
+
+.p-d {
+  background-color: #46348d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: #1e1b1b 0px 0px 20px 0px;
+  transition: 200ms all ease;
+}
+.p-d:hover {
+  transform: translate(-50%, -50%) scale(1.03);
+}
+
+/*# sourceMappingURL=style.css.map */
